@@ -4,7 +4,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import asyncio
 
 
-api = '7771136730:AAGgApwzBS5ioRMMpskwJaR9oYH1m5aa7'
+api = '7771136730:AAGgApwzBS5ioRMMpskwJaR9oYH1m5aa'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
